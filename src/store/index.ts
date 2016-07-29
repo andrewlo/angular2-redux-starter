@@ -2,6 +2,7 @@ import { Map, fromJS } from 'immutable';
 import { IAppState, rootReducer, deimmutify, reimmutify } from './store';
 import { ICounter } from './counter';
 import { ISession } from './session';
+import { ISearch } from './search';
 
 const createLogger = require('redux-logger');
 const persistState = require('redux-localstorage');
@@ -11,6 +12,7 @@ export {
   IAppState,
   ISession,
   ICounter,
+  ISearch,
   rootReducer,
 };
 
